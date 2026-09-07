@@ -1,19 +1,19 @@
 const bands = [
+	
 	{
-		id: 'albemarle',
-		school: 'Albemarle High School',
-		name: 'Marching Patriots',
-		location: 'Charlottesville, VA',
-		groupNumber: 'Group 4',
-		logoUrl: '/images/schools/albemarle.webp',
-		productionName: 'Phases of Artemis',
-		drumMajors: ['Nate Paul'],
-		directors: ['Andrew LaPrade'],
+		id: 'skyview',
+		school: 'Skyview High School',
+		name: 'XYZ',
+		location: 'Herndon, VA',
+		groupNumber: 'Group 1',
+		logoUrl: '/images/schools/xyz.webp',
+		productionName: 'XYZ',
+		drumMajors: ['xyz', 'XYZ', 'XYZ'],
+		directors: ['Alan P. Johnson'],
 		songs: [
-			{ title: 'Symphony No. 10', composer: 'Shostakovich' },
-			{ title: 'Vertigo', composer: 'Bernard Hermann' },
-			{ title: 'Themes based on Sensemaya', composer: 'Revueltas' },
-			{ title: 'Strange Humors', composer: 'John Mackey' }
+			{ title: 'XYZ', composer: 'XYZ' },
+			{ title: 'XYZ', composer: 'XYZ' },
+			{ title: 'XYZ', composer: 'XYZ' }
 		]
 	},
 	{
@@ -21,7 +21,7 @@ const bands = [
 		school: 'Clarke County High School',
 		name: "Screamin' Eagles",
 		location: 'Berryville, VA',
-		groupNumber: 'Group 2',
+		groupNumber: 'Group 1',
 		logoUrl: '/images/schools/clarkecounty.webp',
 		productionName: 'Breakout!',
 		drumMajors: ['Annaliese Pledgie'],
@@ -29,55 +29,177 @@ const bands = [
 		songs: [{ title: 'Breakout!', composer: 'Randall Standridge' }]
 	},
 	{
-		id: 'gainesville',
-		school: 'Gainesville High School',
-		name: 'Cardinal Marching Band',
-		location: 'Gainesville, VA',
-		groupNumber: 'Group 4',
-		logoUrl: '/images/schools/gainesville.webp',
-		productionName: 'Siege of the Sirens: The Final Voyage',
-		drumMajors: ['Aly Estenor'],
-		directors: ['Vince Bryk', 'Sarah Bryk'],
-		songs: [
-			{ title: 'Aquarium', composer: 'Camille Saint-Saëns' },
-			{ title: 'Wellerman', composer: 'Traditional Sea Shanty' },
-			{ title: 'Daughter of the Sea' },
-			{ title: "Russian Sailor's Dance", composer: 'Reinhold Glière' }
-		]
+		id: 'loudounvalley',
+		school: 'Loudoun Valley High School',
+		name: 'Marching Vikings',
+		location: 'Purcellville, VA',
+		groupNumber: 'Group 2',
+		logoUrl: '/images/schools/loudounvalley.webp',
+		productionName: 'Wild, Wild Western Loudoun',
+		drumMajors: ['Matt Hile', 'Richie Ring'],
+		directors: ['Megan Stallings'],
+		songs: []
 	},
 	{
-		id: 'glenvar',
-		school: 'Glenvar High School',
-		name: 'Sound of the Highlands Marching Band',
-		location: 'Salem, VA',
+		id: 'tuscarora',
+		school: 'Tuscarora High School',
+		name: 'Marching Huskies',
+		location: 'Leesburg, VA',
+		groupNumber: 'Group 2',
+		logoUrl: '/images/schools/tuscarora.webp',
+		productionName: 'Common Sense',
+		drumMajors: ['Aidan Spessard'],
+		directors: ['McKenzie Durgin'],
+		songs: [
+			{ title: 'Toxic', composer: 'Britney Spears' },
+			{ title: 'Adagio for Tron', composer: 'Daft Punk' },
+			{ title: 'BANG', composer: 'AJR' },
+			{ title: 'Close Encounters', composer: 'John Williams' }
+		]
+	},
+		{
+		id: 'parkview',
+		school: 'Park View High School',
+		name: 'XYZ',
+		location: 'Sterling, VA',
 		groupNumber: 'Group 3',
-		logoUrl: '/images/schools/glenvar.webp',
-		productionName: 'Wired',
-		drumMajors: ['Lauren Starkey'],
-		directors: ['Nicholas Alford'],
+		logoUrl: '/images/schools/xyz.webp',
+		productionName: 'XYZ',
+		drumMajors: ['xyz', 'XYZ', 'XYZ'],
+		directors: ['Claude LeGrand Jr'],
 		songs: [
-			{ title: 'Power Up' },
-			{ title: 'The Grid' },
-			{ title: 'Alternate Reality' },
-			{ title: 'Virus' }
+			{ title: 'XYZ', composer: 'XYZ' },
+			{ title: 'XYZ', composer: 'XYZ' },
+			{ title: 'XYZ', composer: 'XYZ' }
 		]
 	},
 	{
-		id: 'jamesmadison',
-		school: 'James Madison High School',
-		name: 'Pride of Vienna',
-		location: 'Vienna, VA',
-		groupNumber: 'Group 6',
-		logoUrl: '/images/schools/jamesmadison.webp',
-		productionName: 'Out of the Blue',
-		drumMajors: ['Meghan Chang', 'Daniel Lee'],
-		directors: ['Michael Hackbarth'],
+		id: 'woodgrove',
+		school: 'Park View High School',
+		name: 'XYZ',
+		location: 'Purcellville, VA',
+		groupNumber: 'Group 3',
+		logoUrl: '/images/schools/xyz.webp',
+		productionName: 'XYZ',
+		drumMajors: ['xyz', 'XYZ', 'XYZ'],
+		directors: ['Ryan Dempsey'],
 		songs: [
-			{ title: 'Rhapsody in Blue', composer: 'George Gershwin' },
-			{ title: 'Truman Sleeps', composer: 'Philip Glass' },
-			{ title: 'Bluest Flame', composer: 'Selena Gomez' },
-			{ title: 'Hymn to a Blue Hour', composer: 'John Mackey' },
-			{ title: 'Blue Shades', composer: 'Frank Ticheli' }
+			{ title: 'XYZ', composer: 'XYZ' },
+			{ title: 'XYZ', composer: 'XYZ' },
+			{ title: 'XYZ', composer: 'XYZ' }
+		]
+	},
+	{
+		id: 'manassaspark',
+		school: 'Manassas Park High School',
+		name: 'XYZ',
+		location: 'Manassas Park, VA',
+		groupNumber: 'Group 3',
+		logoUrl: '/images/schools/xyz.webp',
+		productionName: 'XYZ',
+		drumMajors: ['xyz', 'XYZ', 'XYZ'],
+		directors: ['Molly Broklaski'],
+		songs: [
+			{ title: 'XYZ', composer: 'XYZ' },
+			{ title: 'XYZ', composer: 'XYZ' },
+			{ title: 'XYZ', composer: 'XYZ' }
+		]
+	},
+	{
+		id: 'justice',
+		school: 'Justice High School',
+		name: 'XYZ',
+		location: 'Falls Church, VA',
+		groupNumber: 'Group 4',
+		logoUrl: '/images/schools/xyz.webp',
+		productionName: 'XYZ',
+		drumMajors: ['xyz', 'XYZ', 'XYZ'],
+		directors: ['Brian Thomas'],
+		songs: [
+			{ title: 'XYZ', composer: 'XYZ' },
+			{ title: 'XYZ', composer: 'XYZ' },
+			{ title: 'XYZ', composer: 'XYZ' }
+		]
+	},
+	{
+		id: 'herndon',
+		school: 'Herndon High School',
+		name: 'XYZ',
+		location: 'Herndon, VA',
+		groupNumber: 'Group 4',
+		logoUrl: '/images/schools/xyz.webp',
+		productionName: 'XYZ',
+		drumMajors: ['xyz', 'XYZ', 'XYZ'],
+		directors: ['Brian Fisher'],
+		songs: [
+			{ title: 'XYZ', composer: 'XYZ' },
+			{ title: 'XYZ', composer: 'XYZ' },
+			{ title: 'XYZ', composer: 'XYZ' }
+		]
+	},
+		{
+		id: 'westpotomac',
+		school: 'West Potomac High School',
+		name: 'Marching Wolverines',
+		location: 'Alexandria, VA',
+		groupNumber: 'Group 4',
+		logoUrl: '/images/schools/westpotomac.webp',
+		productionName: 'Rock The Ring!',
+		drumMajors: ['Colten Wright'],
+		directors: ['Joe Antonucci'],
+		songs: [
+			{ title: 'Gonna Fly Now', composer: 'Bill Conti' },
+			{ title: 'Punch Out' },
+			{ title: 'We Will Rock You', composer: 'Queen' },
+			{ title: 'We Are The Champions', composer: 'Queen' }
+		]
+	},
+	{
+		id: 'fairfax',
+		school: 'Fairfax High School',
+		name: 'XYZ',
+		location: 'Fairfax, VA',
+		groupNumber: 'Group 4',
+		logoUrl: '/images/schools/xyz.webp',
+		productionName: 'XYZ',
+		drumMajors: ['xyz', 'XYZ', 'XYZ'],
+		directors: ['Noah Freeman'],
+		songs: [
+			{ title: 'XYZ', composer: 'XYZ' },
+			{ title: 'XYZ', composer: 'XYZ' },
+			{ title: 'XYZ', composer: 'XYZ' }
+		]
+	},
+	{
+		id: 'rockridge',
+		school: 'Rock Ridge High School',
+		name: 'XYZ',
+		location: 'Ashburn, VA',
+		groupNumber: 'Group 5',
+		logoUrl: '/images/schools/rockridge.webp',
+		productionName: 'XYZ',
+		drumMajors: ['xyz', 'XYZ', 'XYZ'],
+		directors: ['Justin D. Ratcliff'],
+		songs: [
+			{ title: 'XYZ', composer: 'XYZ' },
+			{ title: 'XYZ', composer: 'XYZ' },
+			{ title: 'XYZ', composer: 'XYZ' }
+		]
+	},
+	{
+		id: 'lightridge',
+		school: 'Lightridge High School',
+		name: 'Marching Storm',
+		location: 'Aldie, VA',
+		groupNumber: 'Group 6',
+		logoUrl: '/images/schools/xyz.webp',
+		productionName: 'XYZ',
+		drumMajors: ['xyz', 'XYZ', 'XYZ'],
+		directors: ['Jonathan Philip, Jamieson Carr, Jacob Zerega'],
+		songs: [
+			{ title: 'XYZ', composer: 'XYZ' },
+			{ title: 'XYZ', composer: 'XYZ' },
+			{ title: 'XYZ', composer: 'XYZ' }
 		]
 	},
 	{
@@ -98,216 +220,19 @@ const bands = [
 		]
 	},
 	{
-		id: 'jrtucker',
-		school: 'JR Tucker High School',
-		name: 'Marching Tigers',
-		location: 'Henrico, VA',
-		groupNumber: 'Group 3',
-		logoUrl: '/images/schools/jrtucker.webp',
-		productionName: 'Renegades',
-		drumMajors: ['Harper Nishimoto', 'Samantha Sherlock'],
-		directors: ['Austin L. Frank'],
-		songs: [
-			{ title: 'Uprising', composer: 'Muse' },
-			{ title: 'Stand Up', composer: 'Cynthia Erivo' },
-			{ title: "We're Not Gonna Take It", composer: 'Twisted Sister' }
-		]
-	},
-	{
-		id: 'liberty',
-		school: 'Liberty Christian Academy',
-		name: 'Marching Bulldogs',
-		location: 'Lynchburg, VA',
-		groupNumber: 'Group 2',
-		logoUrl: '/images/schools/liberty.webp',
-		productionName: 'Outback Odyssey',
-		drumMajors: ['Peyton Reyes'],
-		directors: ['Autumn Esquirell'],
-		songs: [
-			{ title: 'Theme from "Crocodile Dundee"', composer: 'Mark Thomas' },
-			{ title: 'Carnival of the Animals', composer: 'Camille Saint-Saëns' },
-			{ title: 'Crocodile Rock', composer: 'Elton John' },
-			{ title: 'Down Under', composer: 'Men at Work' }
-		]
-	},
-	{
-		id: 'loudounvalley',
-		school: 'Loudoun Valley High School',
-		name: 'Marching Vikings',
-		location: 'Purcellville, VA',
-		groupNumber: 'Group 2',
-		logoUrl: '/images/schools/loudounvalley.webp',
-		productionName: 'Wild, Wild Western Loudoun',
-		drumMajors: ['Matt Hile', 'Richie Ring'],
-		directors: ['Megan Stallings'],
-		songs: []
-	},
-	{
-		id: 'luray',
-		school: 'Luray High School',
-		name: 'Marching Bulldogs',
-		location: 'Luray, VA',
-		groupNumber: 'Group 1',
-		logoUrl: '/images/schools/luray.webp',
-		productionName: 'Radioactive',
-		drumMajors: [],
-		directors: ['Jake Schupner'],
-		songs: []
-	},
-	{
-		id: 'northstafford',
-		school: 'North Stafford High School',
-		name: 'Big Blue Marching Band',
-		location: 'Stafford, VA',
-		groupNumber: 'Group 5',
-		logoUrl: '/images/schools/northstafford.webp',
-		productionName: 'The Circle of Life',
-		drumMajors: ['Joseph Maybo'],
-		directors: ['Chris Mallory'],
-		songs: [
-			{ title: 'Full Circle', composer: 'Carol Brittan' },
-			{ title: 'This Land', composer: 'Hans Zimmer' },
-			{ title: 'Puma', composer: 'Karl Lundeberg' },
-			{ title: '557', composer: 'Pat Metheny' },
-			{ title: 'Circle of Life', composer: 'Elton John' },
-			{ title: "I Just Can't Wait to be King", composer: 'Elton John' },
-			{ title: 'The First Circle', composer: 'Pat Metheny' }
-		]
-	},
-	{
-		id: 'osbournpark',
-		school: 'Osbourn Park High School',
-		name: 'Marching Yellow Jackets',
-		location: 'Manassas, VA',
-		groupNumber: 'Group 3',
-		logoUrl: '/images/schools/osbournpark.webp',
-		productionName: 'The Mark We Leave',
-		drumMajors: ['Eden Adu-Mensah', 'Brianna Ramos'],
-		directors: ['Ashley Radabaugh'],
-		songs: [
-			{ title: 'Fame', composer: 'Irene Cara' },
-			{ title: 'Triumphant Fanfare', composer: 'Richard Saucedo' },
-			{ title: 'If I Had My Way', composer: 'Linda Eder' },
-			{ title: "Beethoven's 9th Symphony", composer: 'Ludwig van Beethoven' }
-		]
-	},
-	{
-		id: 'potomacfalls',
-		school: 'Potomac Falls High School',
-		name: 'Marching Panthers',
-		location: 'Potomac Falls, VA',
-		groupNumber: 'Group 3',
-		logoUrl: '/images/schools/potomacfalls.webp',
-		productionName: 'Ascend',
-		drumMajors: ['Ellie VanderHeyden', 'Bryan Advincula'],
-		directors: ['Mahdi Lotfi'],
-		songs: [
-			{ title: 'Married Life (Up)', composer: 'Michael Giacchino' },
-			{ title: 'Rockeship!' },
-			{ title: 'Clair de Lune', composer: 'Claude Debussy' },
-			{ title: 'Theme from Interstellar', composer: 'Hans Zimmer' }
-		]
-	},
-	{
-		id: 'sherando',
-		school: 'Sherando High School',
-		name: 'Marching Warriors',
-		location: 'Stephens City, VA',
+		id: 'independence',
+		school: 'Independence High School',
+		name: 'XYZ',
+		location: 'Ashburn, VA',
 		groupNumber: 'Group 6',
-		logoUrl: '/images/schools/sherando.webp',
-		productionName: 'Transcend the Stone',
-		drumMajors: ['Josie Austin', 'Glyn Lystrup', 'Gerardo Trinidad-Membreno'],
-		directors: ['Tyler Ende'],
+		logoUrl: '/images/schools/independence.webp',
+		productionName: 'XYZ',
+		drumMajors: ['xyz', 'XYZ', 'XYZ'],
+		directors: ['Kyle Harrington & Amanda Young'],
 		songs: [
-			{ title: 'The Bells of Notre Dame', composer: 'Alan Menken' },
-			{ title: 'Night on Bald Mountain', composer: 'Modest Mussorgsky' },
-			{ title: 'Heart of Stone' },
-			{ title: 'Baba Yaga', composer: 'Anatoly Liadov' },
-			{ title: 'Turn to Stone', composer: 'Electric Light Orchestra' }
-		]
-	},
-	{
-		id: 'spotswood',
-		school: 'Spotswood High School',
-		name: 'Marching Trailblazers',
-		location: 'Penn Laird, VA',
-		groupNumber: 'Group 1',
-		logoUrl: '/images/schools/spotswood.webp',
-		productionName: 'Icarus',
-		drumMajors: [],
-		directors: ['Sean Macomber'],
-		songs: [
-			{ title: 'Sogno di Volare', composer: 'Christopher Tin' },
-			{ title: 'Romantic Flight from How to Train Your Dragon', composer: 'John Powell' },
-			{ title: 'Dies Irae', composer: 'Giuseppe Verdi' }
-		]
-	},
-	{
-		id: 'tjhsst',
-		school: 'Thomas Jefferson HSST',
-		name: 'Thomas Jefferson Marching Colonials',
-		location: 'Alexandria, VA',
-		groupNumber: 'Group 6',
-		logoUrl: '/images/schools/tjhsst.webp',
-		productionName: 'Shadows in the Alleys of the City',
-		drumMajors: ['Arin Kim', 'Grace Bai'],
-		directors: ['Steve Ballard'],
-		songs: [
-			{ title: "Children's Hour of Dream", composer: 'Charles Mingus' },
-			{ title: 'Theme from TV Show "Succession"', composer: 'Nicholas Britell' },
-			{ title: 'Big Four on the River', composer: 'James David' },
-			{ title: 'Metropolis 1927', composer: 'Peter Graham' }
-		]
-	},
-	{
-		id: 'tuscarora',
-		school: 'Tuscarora High School',
-		name: 'Marching Huskies',
-		location: 'Leesburg, VA',
-		groupNumber: 'Group 3',
-		logoUrl: '/images/schools/tuscarora.webp',
-		productionName: 'Common Sense',
-		drumMajors: ['Aidan Spessard'],
-		directors: ['McKenzie Durgin'],
-		songs: [
-			{ title: 'Toxic', composer: 'Britney Spears' },
-			{ title: 'Adagio for Tron', composer: 'Daft Punk' },
-			{ title: 'BANG', composer: 'AJR' },
-			{ title: 'Close Encounters', composer: 'John Williams' }
-		]
-	},
-	{
-		id: 'westpotomac',
-		school: 'West Potomac High School',
-		name: 'Marching Wolverines',
-		location: 'Alexandria, VA',
-		groupNumber: 'Group 4',
-		logoUrl: '/images/schools/westpotomac.webp',
-		productionName: 'Rock The Ring!',
-		drumMajors: ['Colten Wright'],
-		directors: ['Joe Antonucci'],
-		songs: [
-			{ title: 'Gonna Fly Now', composer: 'Bill Conti' },
-			{ title: 'Punch Out' },
-			{ title: 'We Will Rock You', composer: 'Queen' },
-			{ title: 'We Are The Champions', composer: 'Queen' }
-		]
-	},
-	{
-		id: 'yorktown',
-		school: 'Yorktown High School',
-		name: 'Yorktown Marching Band',
-		location: 'Arlington, VA',
-		groupNumber: 'Group 3',
-		logoUrl: '/images/schools/yorktown.webp',
-		productionName: 'One',
-		drumMajors: ['Liem Nguyen'],
-		directors: ['Joseph Witkowski'],
-		songs: [
-			{ title: 'First Suite in E-flat for Military band', composer: 'Gustav Holst' },
-			{ title: 'One', composer: 'U2' },
-			{ title: 'One', composer: 'Three Dog Night' },
-			{ title: 'One', composer: 'Metallica' }
+			{ title: 'XYZ', composer: 'XYZ' },
+			{ title: 'XYZ', composer: 'XYZ' },
+			{ title: 'XYZ', composer: 'XYZ' }
 		]
 	},
 	{

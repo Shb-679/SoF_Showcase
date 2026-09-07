@@ -5,9 +5,9 @@ const sponsors = [
 		level: 'Platinum Plus',
 		sponsors: [
 			{
-				name: 'Dentis Tree',
-				logo: '',
-				url: ''
+				name: 'DentisTree of Manassass',
+				logo: '/images/sponsors/dentistree.webp',
+				url: 'https://dentistreeva.com/'
 			},
 			{
 				name: 'Target',
@@ -29,11 +29,7 @@ const sponsors = [
 				logo: '/images/sponsors/kreative.webp',
 				url: 'https://kreativecorp.com/'
 			},
-			{
-				name: 'Ourisman Toyota',
-				logo: '/images/sponsors/ourisman.webp',
-				url: 'https://www.ourismanchantillytoyota.com/'
-			},
+
 			{
 				name: 'Reynolds Empower Homes Team',
 				logo: '/images/sponsors/empower-home.webp',
@@ -50,15 +46,15 @@ const sponsors = [
 		level: 'Gold',
 		sponsors: [
 			{
-				name: 'Donna Chong, Realtor',
+				name: 'Donna Chong, Realtor with Fox Homes',
 				logo: '/images/sponsors/donna-chong.webp',
-				url: 'https://www.facebook.com/Donnachongrealtor/'
+				url: 'https://www.foxessellfaster.com/agents/donna-chong/'
 			},
 			{
-				name: 'NOVEC',
-				logo: '/images/sponsors/novec.webp',
-				url: 'https://www.novec.com/'
-			}
+				name: 'Ourisman Toyota',
+				logo: '/images/sponsors/ourisman.webp',
+				url: 'https://www.ourismanchantillytoyota.com/'
+			},
 		]
 	},
 	{
@@ -71,18 +67,8 @@ const sponsors = [
 			},
 			{
 				name: 'Denali Consulting LLC',
-				logo: '',
-				url: ''
-			},
-			{
-				name: 'Iron Bear LLC',
-				logo: '',
-				url: ''
-			},
-			{
-				name: 'M. Gen Contracting',
-				logo: '/images/sponsors/m-gen.webp',
-				url: 'http://mgeneralcontracting.com/'
+				logo: '/images/sponsors/denali.webp',
+				url: 'https://denaliconsultingllc.com/'
 			},
 			{
 				name: 'Manhattan Pizza',
@@ -90,9 +76,9 @@ const sponsors = [
 				url: 'https://manhattanpizza.com/locations/south-riding/'
 			},
 			{
-				name: 'United Rentals',
-				logo: '/images/sponsors/united-rentals.webp',
-				url: 'https://www.unitedrentals.com/'
+				name: 'Caring Hands Animal Hospital Centerville',
+				logo: '/images/sponsors/caringhands.webp',
+				url: 'https://caringhandsvet.com/centreville-va/'
 			}
 		]
 	},
@@ -132,12 +118,17 @@ const sponsors = [
 			{
 				name: 'Pivot Woodworks',
 				logo: '',
+				url: 'https://pivotwoodworks.com/'
+			},
+			{
+				name: 'Ronald Jenkees',
+				logo: '',
 				url: ''
 			},
 			{
-				name: 'Bakery Bites',
-				logo: '/images/sponsors/my-bites-bakery.webp',
-				url: 'https://www.mybitesbakery.com/'
+				name: 'The Midnight',
+				logo: '',
+				url: ''
 			}
 		]
 	},
@@ -145,28 +136,34 @@ const sponsors = [
 		level: 'Family Supporters',
 		sponsors: [
 			{
-				name: 'Bahl Family'
-			},
-			{
 				name: 'Bell Family'
-			},
-			{
-				name: 'Bingham Family'
-			},
-			{
-				name: 'Garcia Family'
 			},
 			{
 				name: 'Gould Family'
 			},
 			{
-				name: 'Hoye Family'
+				name: 'Huynh and Dorji Family'
 			},
 			{
-				name: 'McGarry Family'
+				name: 'Jacoby Family'
+			},
+			{
+				name: 'Keffer Family'
+			},
+			{
+				name: 'Lee Family'
+			},
+			{
+				name: 'Owellen Family'
+			},
+			{
+				name: 'Reichert Family'
 			},
 			{
 				name: 'Ryan Family'
+			},
+			{
+				name: 'Sterling Family'
 			}
 		]
 	}

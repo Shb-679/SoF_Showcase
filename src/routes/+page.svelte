@@ -177,9 +177,7 @@
 			<h3>Showcase Coordinators</h3>
 			<div class="coordinator-list">
 				{#each boosters.showcaseCoordinators as coordinator, i}
-					<span class="coordinator-name"
-						>{coordinator}{i < boosters.showcaseCoordinators.length - 1 ? ', ' : ''}</span
-					>
+					<div class="coordinator-name">{coordinator}</div>
 				{/each}
 			</div>
 		</div>
@@ -433,12 +431,14 @@
 	}
 	.coordinator-list {
 		font-size: 0.95rem;
-		line-height: 1.6;
+		display: flex;
+		flex-direction: column;
+		gap: 6px;
 		color: #4a5568;
 	}
 	.coordinator-name {
 		white-space: nowrap;
-		display: inline-block;
+		display: block;
 	}
 	.special-thanks {
 		margin-top: 1rem;

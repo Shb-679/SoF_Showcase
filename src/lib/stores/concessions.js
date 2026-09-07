@@ -1,34 +1,40 @@
 const concessions = {
 	categories: [
-		{
+			{
 			name: 'Combo Deal',
 			items: [
 				{
 					name: "Pizza/Hot Dog/Cup o'Noodles",
-					price: '7.00',
-					description: 'Includes an entree, a drink (soda/water), and chips',
-					icon: '🍽️'
-				}
-			]
+					price: '10.00',
+					description: 'Includes an entree, a drink (soda/water), chips, and candy',
+					icon: '🍽️🥤🍫'
+			},
+				{
+					name: "Nothing Bundt Cake with Drink",
+					price: '10.00',
+					description: 'Includes a tasty Bundtlet with a drink',
+					icon: '🎂🥤'
+			}
+		]
 		},
 		{
 			name: 'Food',
 			items: [
 				{
 					name: 'Pizza',
-					price: '4.00',
+					price: '5.00',
 					description: 'Cheese or pepperoni',
 					icon: '🍕'
 				},
 				{
 					name: 'Hot Dog',
-					price: '4.00',
+					price: '5.00',
 					description: 'All-beef hot dog',
 					icon: '🌭'
 				},
 				{
 					name: "Cup o'Noodles",
-					price: '4.00',
+					price: '5.00',
 					description: 'Instant noodles',
 					icon: '🍜'
 				},
@@ -39,16 +45,28 @@ const concessions = {
 					icon: '🥨'
 				},
 				{
-					name: 'Chips or Skinny Pop',
+					name: 'Chips',
 					price: '2.00',
 					description: 'Assorted varieties',
 					icon: '🥔'
 				},
 				{
-					name: 'Oranges',
-					price: '1.00',
-					description: '2 Mandarin oranges',
-					icon: '🍊'
+					name: 'Nothing Bundt Cake',
+					price: '8.00',
+					description: 'Handcrafted bundt cake',
+					icon: '🎂'
+				},
+				{
+					name: 'Candy',
+					price: '3.00',
+					description: 'Your choice of M&Ms, MilkyWay, Nerdsd, Skittles, Snickers, Sour Patch Kids, and Twix',
+					icon: '🍫'
+				},
+				{
+					name: 'Airheads',
+					price: '2.00',
+					description: 'Popular taffy candy',
+					icon: '🍬'
 				}
 			]
 		},
@@ -58,13 +76,13 @@ const concessions = {
 				{
 					name: 'Soda',
 					price: '2.00',
-					description: 'Coke, Diet Coke, Sprite, Fanta',
+					description: 'Coke, Diet Coke, Coke Zero, Sprite, Fanta',
 					icon: '🥤'
 				},
 				{
 					name: 'Bottled Water',
 					price: '2.00',
-					description: '16oz bottle',
+					description: '',
 					icon: '💧'
 				},
 				{
@@ -73,24 +91,6 @@ const concessions = {
 					description: 'Assorted varieties',
 					icon: '🧃'
 				},
-				{
-					name: 'Hot Tea',
-					price: '2.00',
-					description: 'Regular black tea',
-					icon: '🍵'
-				},
-				{
-					name: 'Coffee',
-					price: '2.00',
-					description: 'Regular only',
-					icon: '☕️'
-				},
-				{
-					name: 'Hot Chocolate',
-					price: '2.00',
-					description: 'Hot chocolate',
-					icon: '☕'
-				}
 			]
 		},
 		{
@@ -100,7 +100,7 @@ const concessions = {
 					name: 'Nothing Bundt Cakes',
 					price: '7.00',
 					description: 'Mini bundt cakes: Chocolate Chocolate Chip, Confetti, Lemon, Red Velvet, Oreo Cookies and Cream, Pumpkin Spice, White Chocolate Raspberry, Strawberries and Cream, Gluten Free Chocolate Chip, and Gluten Free Lemon Raspberry',
-					icon: '🍰'
+					icon: '🎂'
 				},
 				{
 					name: 'Candy',

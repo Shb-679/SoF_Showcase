@@ -16,14 +16,14 @@ const schedule = [
 		group: 'Group 1',
 		events: [
 			{
-				time: '2:00 PM',
-				description: 'Luray HS',
-				bandId: 'luray'
+				time: '3:20 PM',
+				description: 'Skyview HS',
+				bandId: 'skyview'
 			},
 			{
-				time: '2:15 PM',
-				description: 'Spotswood HS',
-				bandId: 'spotswood'
+				time: '3:35 PM',
+				description: 'Clarke County HS',
+				bandId: 'clarkecounty'
 			}
 		]
 	},
@@ -31,22 +31,17 @@ const schedule = [
 		group: 'Group 2',
 		events: [
 			{
-				time: '2:30 PM',
-				description: 'Liberty Christian Academy',
-				bandId: 'liberty'
-			},
-			{
-				time: '2:45 PM',
-				description: 'Clarke County HS',
-				bandId: 'clarkecounty'
-			},
-			{
-				time: '3:00 PM',
+				time: '3:50 PM',
 				description: 'Loudoun Valley HS',
 				bandId: 'loudounvalley'
 			},
 			{
-				time: '3:15 PM',
+				time: '4:05 PM',
+				description: 'Tuscarora HS',
+				bandId: 'tuscarora'
+			},
+			{
+				time: '4:20 PM',
 				description: 'Break'
 			}
 		]
@@ -55,37 +50,22 @@ const schedule = [
 		group: 'Group 3',
 		events: [
 			{
-				time: '3:30 PM',
-				description: 'Tuscarora HS',
-				bandId: 'tuscarora'
+				time: '4:35 PM',
+				description: 'Park View HS',
+				bandId: 'parkview'
+			}, 
+			{
+				time: '4:50 PM',
+				description: 'Woodgrove HS',
+				bandId: 'woodgrove'
 			},
 			{
-				time: '3:45 PM',
-				description: 'Osbourn Park HS',
-				bandId: 'osbournpark'
+				time: '5:05 PM',
+				description: 'Manassas Park HS',
+				bandId: 'manassaspark'
 			},
 			{
-				time: '4:00 PM',
-				description: 'Yorktown HS',
-				bandId: 'yorktown'
-			},
-			{
-				time: '4:15 PM',
-				description: 'JR Tucker HS',
-				bandId: 'jrtucker'
-			},
-			{
-				time: '4:30 PM',
-				description: 'Potomac Falls HS',
-				bandId: 'potomacfalls'
-			},
-			{
-				time: '4:45 PM',
-				description: 'Glenvar HS',
-				bandId: 'glenvar'
-			},
-			{
-				time: '5:00 PM',
+				time: '5:20 PM',
 				description: 'Break'
 			}
 		]
@@ -94,19 +74,28 @@ const schedule = [
 		group: 'Group 4',
 		events: [
 			{
-				time: '5:15 PM',
+				time: '5:30 PM',
+				description: 'Justice HS',
+				bandId: 'justice'
+			},
+			{
+				time: '5:45 PM',
+				description: 'Herndon HS',
+				bandId: 'herndon'
+			},
+			{
+				time: '6:00 PM',
 				description: 'West Potomac HS',
 				bandId: 'westpotomac'
 			},
 			{
-				time: '5:30 PM',
-				description: 'Gainesville HS',
-				bandId: 'gainesville'
+				time: '6:15 PM',
+				description: 'Fairfax HS',
+				bandId: 'fairfax'
 			},
 			{
-				time: '5:45 PM',
-				description: 'Albemarle HS',
-				bandId: 'albemarle'
+				time: '6:30 PM',
+				description: 'Dinner Break'
 			}
 		]
 	},
@@ -114,38 +103,30 @@ const schedule = [
 		group: 'Group 5',
 		events: [
 			{
-				time: '6:00 PM',
-				description: 'North Stafford HS',
-				bandId: 'northstafford'
+				time: '7:15 PM',
+				description: 'Rock Ridge HS',
+				bandId: 'rockridge'
 			},
-			{
-				time: '6:15 PM',
-				description: 'Dinner Break'
-			}
+
 		]
 	},
 	{
 		group: 'Group 6',
 		events: [
 			{
-				time: '7:15 PM',
+				time: '7:30 PM',
+				description: 'Lightridge HS',
+				bandId: 'lightridge'
+			},
+			{
+				time: '7:45 PM',
 				description: 'John Champe HS',
 				bandId: 'johnchampe'
 			},
 			{
-				time: '7:30 PM',
-				description: 'Thomas Jefferson HSST',
-				bandId: 'tjhsst'
-			},
-			{
-				time: '7:45 PM',
-				description: 'Sherando HS',
-				bandId: 'sherando'
-			},
-			{
 				time: '8:00 PM',
-				description: 'James Madison HS',
-				bandId: 'jamesmadison'
+				description: 'Independence HS',
+				bandId: 'independence'
 			}
 		]
 	},
@@ -156,10 +137,6 @@ const schedule = [
 				time: '8:15 PM',
 				description: 'Freedom HS',
 				bandId: 'freedom'
-			},
-			{
-				time: '8:30 PM',
-				description: 'UVA Cavalier Marching Band'
 			}
 		]
 	},
