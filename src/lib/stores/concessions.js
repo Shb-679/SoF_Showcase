@@ -50,24 +50,6 @@ const concessions = {
 					description: 'Assorted varieties',
 					icon: '🥔'
 				},
-				{
-					name: 'Nothing Bundt Cake',
-					price: '8.00',
-					description: 'Handcrafted bundt cake',
-					icon: '🎂'
-				},
-				{
-					name: 'Candy',
-					price: '3.00',
-					description: 'Your choice of M&Ms, MilkyWay, Nerdsd, Skittles, Snickers, Sour Patch Kids, and Twix',
-					icon: '🍫'
-				},
-				{
-					name: 'Airheads',
-					price: '2.00',
-					description: 'Popular taffy candy',
-					icon: '🍬'
-				}
 			]
 		},
 		{
@@ -97,16 +79,21 @@ const concessions = {
 			name: 'Treats & Candy',
 			items: [
 				{
-					name: 'Nothing Bundt Cakes',
-					price: '7.00',
-					description: 'Mini bundt cakes: Chocolate Chocolate Chip, Confetti, Lemon, Red Velvet, Oreo Cookies and Cream, Pumpkin Spice, White Chocolate Raspberry, Strawberries and Cream, Gluten Free Chocolate Chip, and Gluten Free Lemon Raspberry',
+					name: 'Nothing Bundt Cake',
+					price: '8.00',
+					description: 'Handcrafted bundt cake',
 					icon: '🎂'
 				},
 				{
 					name: 'Candy',
+					price: '3.00',
+					description: 'Your choice of M&Ms, MilkyWay, Nerds, Skittles, Snickers, Sour Patch Kids, and Twix',
+					icon: '🍫'
+				},
+				{
+					name: 'Airheads',
 					price: '2.00',
-					description:
-						'Assorted varieties: Airheads, M&Ms (plain/peanut), Milky Way, Skittles, Snickers, Sour Patch, Twix, Nerds Gummy Clusters (rainbow/very berry)',
+					description: 'Popular taffy candy',
 					icon: '🍬'
 				}
 			]
