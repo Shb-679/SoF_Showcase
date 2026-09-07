@@ -115,7 +115,9 @@ npm run build
 Then commit and push your changes to the `main` branch to trigger automatic deployment.
 
 **Note:** Make sure GitHub Pages is enabled in your repository settings (Settings → Pages → Source: GitHub Actions).
+**Note:** This fork is maintained for ongoing website updates.
 
 ## License
 
 Copyright © 2025 Freedom High School Marching Band. All rights reserved.
+
