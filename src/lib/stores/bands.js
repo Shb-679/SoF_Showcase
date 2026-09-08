@@ -75,7 +75,7 @@ const bands = [
 	},
 	{
 		id: 'woodgrove',
-		school: 'Park View High School',
+		school: 'Woodgrove High School',
 		name: 'XYZ',
 		location: 'Purcellville, VA',
 		groupNumber: 'Group 3',
@@ -242,7 +242,7 @@ const bands = [
 		location: 'South Riding, VA',
 		groupNumber: 'Exhibition',
 		logoUrl: '/images/schools/freedom.webp',
-		productionName: 'In the Present',
+		productionName: 'If Left Were Right and Down Was Up',
 		drumMajors: ['Abby Keenan', 'Josh Choi', 'Bea Elliot'],
 		directors: ['Jonathan Schiffler'],
 		songs: [

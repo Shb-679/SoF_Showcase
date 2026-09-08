@@ -58,7 +58,7 @@ const concessions = {
 				{
 					name: 'Soda',
 					price: '2.00',
-					description: 'Coke, Diet Coke, Coke Zero, Sprite, Fanta',
+					description: 'Coke, Diet Coke, Coke Zero, Sparkling Water (Lemon, Lime, Grapefruit)',
 					icon: '🥤'
 				},
 				{

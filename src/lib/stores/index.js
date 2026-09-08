@@ -16,7 +16,7 @@ const boosters = {
 		{ name: 'Laura McGarry', position: 'VP Operations' },
 		{ name: 'JongSun Lee', position: 'VP Logistics' },
 		{ name: 'Catalina Gomoloka and Rachael Bingham', position: 'VP Colorguard' },
-		{ name: 'Matt McGarry', position: 'VP Drumline' },
+		{ name: 'Matt McGarry and Rachael Bingham', position: 'VP Drumline' },
 		{ name: 'James Gould', position: 'Treasurer' },
 		{ name: 'Becky Wilhelm', position: 'Secretary' }
 	],
@@ -25,7 +25,7 @@ const boosters = {
 		'Parking - James Irrgang',
 		'Band Registration - Kristen Fegan',
 		'Hydration Station - Erin Sterling',
-		'Hospitality - Kristen Keffer',
+		'Hospitality - Kristen Keffer and Katie Chapin',
 		'Concessions - Becky and Dan Wilhelm',
 		'Volunteer Check-in - Catalina Gomolka',
 		'Ticket Sales - Maria Ryan',
