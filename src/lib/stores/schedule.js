@@ -3,12 +3,12 @@ const schedule = [
 		group: 'Opening Ceremony',
 		events: [
 			{
-				time: '1:30 PM',
+				time: '2:45 PM',
 				description: 'Gates open'
 			},
 			{
-				time: '1:50 PM',
-				description: 'Announcements / National Anthem'
+				time: '3:05 PM',
+				description: 'Announcements'
 			}
 		]
 	},
@@ -141,10 +141,10 @@ const schedule = [
 		]
 	},
 	{
-		group: 'Awards Ceremony',
+		group: 'Presentation of Awards',
 		events: [
 			{
-				time: '8:50 PM',
+				time: '8:45 PM',
 				description: 'Presentation of awards'
 			}
 		]
