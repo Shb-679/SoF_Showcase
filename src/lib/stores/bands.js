@@ -3,17 +3,18 @@ const bands = [
 	{
 		id: 'skyview',
 		school: 'Skyview High School',
-		name: 'XYZ',
+		name: 'Aviators',
 		location: 'Herndon, VA',
 		groupNumber: 'Group 1',
 		logoUrl: '/images/schools/xyz.webp',
-		productionName: 'XYZ',
-		drumMajors: ['xyz', 'XYZ', 'XYZ'],
+		productionName: 'The Dream of Flight',
+		drumMajors: [''],
 		directors: ['Alan P. Johnson'],
 		songs: [
-			{ title: 'XYZ', composer: 'XYZ' },
-			{ title: 'XYZ', composer: 'XYZ' },
-			{ title: 'XYZ', composer: 'XYZ' }
+			{ title: 'Sogno di Volare', composer: 'Christopher Tin' },
+			{ title: 'Cadillac of the Skies', composer: 'John Williams' },
+			{ title: 'Flight', composer: 'Hans Zimmer' },
+			{ title: 'Top Gun Anthem', composer: 'Harold Faltemeyer' }
 		]
 	},
 	{
@@ -23,10 +24,14 @@ const bands = [
 		location: 'Berryville, VA',
 		groupNumber: 'Group 1',
 		logoUrl: '/images/schools/clarkecounty.webp',
-		productionName: 'Breakout!',
-		drumMajors: ['Annaliese Pledgie'],
+		productionName: 'Our Favorite Things',
+		drumMajors: ['Kaleia Garcia'],
 		directors: ['Mark Curry', 'Averie Jackson'],
-		songs: [{ title: 'Breakout!', composer: 'Randall Standridge' }]
+		songs: [{ title: 'My Favorite Things (The Sound of Music)', composer: 'Richard Rodgers' },
+				{ title: 'Robin Hood, Prince of Thieves', composer: 'Michael Kamen, Original Movie Soundtrack' },
+				{ title: 'This is Me (The Greatest Showman)', composer: 'Benj Pasek and Justin Paul' },
+				{ title: 'Empire State of Mind', composer: 'Alicia Keys' }
+		]
 	},
 	{
 		id: 'loudounvalley',
@@ -35,10 +40,13 @@ const bands = [
 		location: 'Purcellville, VA',
 		groupNumber: 'Group 2',
 		logoUrl: '/images/schools/loudounvalley.webp',
-		productionName: 'Wild, Wild Western Loudoun',
-		drumMajors: ['Matt Hile', 'Richie Ring'],
+		productionName: 'Balance',
+		drumMajors: ['Sam Seipt, Hailey Shields'],
 		directors: ['Megan Stallings'],
-		songs: []
+		songs: [{ title: 'Everything In Its Right Place', composer: 'Radiohead' },
+				{ title: 'Bolero', composer: 'Ravel' },
+				{ title: 'JOY!', composer: 'RAYE' }
+		]
 	},
 	{
 		id: 'tuscarora',
@@ -47,14 +55,15 @@ const bands = [
 		location: 'Leesburg, VA',
 		groupNumber: 'Group 2',
 		logoUrl: '/images/schools/tuscarora.webp',
-		productionName: 'Common Sense',
-		drumMajors: ['Aidan Spessard'],
+		productionName: 'I AM',
+		drumMajors: ['Aidan Spessard, Dayton Lee'],
 		directors: ['McKenzie Durgin'],
 		songs: [
-			{ title: 'Toxic', composer: 'Britney Spears' },
-			{ title: 'Adagio for Tron', composer: 'Daft Punk' },
-			{ title: 'BANG', composer: 'AJR' },
-			{ title: 'Close Encounters', composer: 'John Williams' }
+			{ title: 'Steampunk Suite', composer: 'Erika Svanoe' },
+			{ title: 'Riften Wed', composer: 'Julie Giroux' },
+			{ title: 'Rise Up', composer: 'Andra Day' },
+			{ title: 'Confident', composer: 'Demi Lovato' },
+			{ title: 'Barbie World', composer: 'Nicki Minaj, all arranged by M. Arboldea and E. Steele' }
 		]
 	},
 		{
@@ -64,13 +73,15 @@ const bands = [
 		location: 'Sterling, VA',
 		groupNumber: 'Group 3',
 		logoUrl: '/images/schools/xyz.webp',
-		productionName: 'XYZ',
-		drumMajors: ['xyz', 'XYZ', 'XYZ'],
+		productionName: 'Uncharted',
+		drumMajors: ['Keylin Marroquin, Melanie Natareno Hernandez'],
 		directors: ['Claude LeGrand Jr'],
 		songs: [
-			{ title: 'XYZ', composer: 'XYZ' },
-			{ title: 'XYZ', composer: 'XYZ' },
-			{ title: 'XYZ', composer: 'XYZ' }
+			{ title: '4 Movements; New World Symphony', composer: 'Antonín Dvořák' },
+			{ title: 'A Million Dreams (The Greatest Showman)', composer: 'Benj Pasek and Justin Paul' },
+			{ title: 'Unstoppable', composer: 'Sia' },
+			{ title: 'Largo Theme (New World)', composer: 'Antonín Dvořák' },
+			{ title: 'Hymn from Jupiter 4th Movement', composer: 'Gustav Holst' }
 		]
 	},
 	{
@@ -80,13 +91,13 @@ const bands = [
 		location: 'Purcellville, VA',
 		groupNumber: 'Group 3',
 		logoUrl: '/images/schools/xyz.webp',
-		productionName: 'XYZ',
-		drumMajors: ['xyz', 'XYZ', 'XYZ'],
+		productionName: 'Infectious',
+		drumMajors: ['Kai Shah'],
 		directors: ['Ryan Dempsey'],
 		songs: [
-			{ title: 'XYZ', composer: 'XYZ' },
-			{ title: 'XYZ', composer: 'XYZ' },
-			{ title: 'XYZ', composer: 'XYZ' }
+			{ title: 'Toxic', composer: 'Britney Spears' },
+			{ title: 'Okay with Crazy', composer: 'Thomas Newman' },
+			{ title: 'Kiss from a Rose', composer: 'Seal' }
 		]
 	},
 	{
@@ -96,13 +107,11 @@ const bands = [
 		location: 'Manassas Park, VA',
 		groupNumber: 'Group 3',
 		logoUrl: '/images/schools/xyz.webp',
-		productionName: 'XYZ',
-		drumMajors: ['xyz', 'XYZ', 'XYZ'],
+		productionName: 'Rhythms of Rio',
+		drumMajors: ['Drum Major - Kira Hargest, Commanding Officer - Irvin Cruz'],
 		directors: ['Molly Broklaski'],
 		songs: [
-			{ title: 'XYZ', composer: 'XYZ' },
-			{ title: 'XYZ', composer: 'XYZ' },
-			{ title: 'XYZ', composer: 'XYZ' }
+			{ title: 'Rythms of Rio', composer: 'David Bennett' }
 		]
 	},
 	{
@@ -112,13 +121,11 @@ const bands = [
 		location: 'Falls Church, VA',
 		groupNumber: 'Group 4',
 		logoUrl: '/images/schools/xyz.webp',
-		productionName: 'XYZ',
-		drumMajors: ['xyz', 'XYZ', 'XYZ'],
+		productionName: 'Dia de los Muertos',
+		drumMajors: ['No DM, Leads: TJ Basin, Brooke Ehman-Jone, Jaime Matildes, Nathan Jackson Silvia Smith, Elinor Sonet'],
 		directors: ['Brian Thomas'],
 		songs: [
-			{ title: 'XYZ', composer: 'XYZ' },
-			{ title: 'XYZ', composer: 'XYZ' },
-			{ title: 'XYZ', composer: 'XYZ' }
+			{ title: 'Dia de los Muertos', composer: 'Randall Standridge' }
 		]
 	},
 	{
@@ -128,13 +135,14 @@ const bands = [
 		location: 'Herndon, VA',
 		groupNumber: 'Group 4',
 		logoUrl: '/images/schools/xyz.webp',
-		productionName: 'XYZ',
-		drumMajors: ['xyz', 'XYZ', 'XYZ'],
+		productionName: 'Steal the Show - Art Heist',
+		drumMajors: ['Jonathan Mauricio Lopez, Theo Cuadro'],
 		directors: ['Brian Fisher'],
 		songs: [
-			{ title: 'XYZ', composer: 'XYZ' },
-			{ title: 'XYZ', composer: 'XYZ' },
-			{ title: 'XYZ', composer: 'XYZ' }
+			{ title: '"Hatching the plan" Ballet of the Unhatched Chicks / Mission Impossible', composer: 'Modest Mussorgsky, Lalo Schifrin' },
+			{ title: '"The Theft" Old Castle / Skyfall', composer: 'Modest Mussorgsky, Adele & Paul Epworth' },
+			{ title: '"The Chase" Baba Yaga / Live and Let Die', composer: 'Modest Mussorgsky, Paul & Linda McCartney' },
+			{ title: '"Finale" Smooth Criminal / Great Gate', composer: 'Michael Jackson, Modest Mussorgsky' }
 		]
 	},
 		{
@@ -144,14 +152,13 @@ const bands = [
 		location: 'Alexandria, VA',
 		groupNumber: 'Group 4',
 		logoUrl: '/images/schools/westpotomac.webp',
-		productionName: 'Rock The Ring!',
-		drumMajors: ['Colten Wright'],
+		productionName: 'Distorted',
+		drumMajors: ['Lexi Zwerdling, Tyler Williams'],
 		directors: ['Joe Antonucci'],
 		songs: [
-			{ title: 'Gonna Fly Now', composer: 'Bill Conti' },
-			{ title: 'Punch Out' },
-			{ title: 'We Will Rock You', composer: 'Queen' },
-			{ title: 'We Are The Champions', composer: 'Queen' }
+			{ title: 'Fugue in G Minor', composer: 'Johann Sebastian Bach' },
+			{ title: 'If I Fell', composer: 'The Beatles' },
+			{ title: 'Everything In Its Right Place', composer: 'Radiohead' }
 		]
 	},
 	{
@@ -161,13 +168,14 @@ const bands = [
 		location: 'Fairfax, VA',
 		groupNumber: 'Group 4',
 		logoUrl: '/images/schools/xyz.webp',
-		productionName: 'XYZ',
-		drumMajors: ['xyz', 'XYZ', 'XYZ'],
+		productionName: 'Immortal',
+		drumMajors: ['Connor Kim, Nari Kim'],
 		directors: ['Noah Freeman'],
 		songs: [
-			{ title: 'XYZ', composer: 'XYZ' },
-			{ title: 'XYZ', composer: 'XYZ' },
-			{ title: 'XYZ', composer: 'XYZ' }
+			{ title: 'Toccata and Fugue in G Minor', composer: 'Johann Sebastian Bach' },
+			{ title: 'Danse Macabre', composer: 'Camille Saint-Saëns' },
+			{ title: 'My Immortal', composer: 'Evanescence' },
+			{ title: 'Bring Me To Life', composer: 'Evanescence' }
 		]
 	},
 	{
@@ -177,13 +185,17 @@ const bands = [
 		location: 'Ashburn, VA',
 		groupNumber: 'Group 5',
 		logoUrl: '/images/schools/rockridge.webp',
-		productionName: 'XYZ',
-		drumMajors: ['xyz', 'XYZ', 'XYZ'],
+		productionName: 'Bright Idea!',
+		drumMajors: ['Ryann, Leeyu, Netiri, Shravya, Anushka'],
 		directors: ['Justin D. Ratcliff'],
 		songs: [
-			{ title: 'XYZ', composer: 'XYZ' },
-			{ title: 'XYZ', composer: 'XYZ' },
-			{ title: 'XYZ', composer: 'XYZ' }
+			{ title: 'Requiem for a Dream', composer: 'Clint Mansell' },
+			{ title: 'Primacy of Number', composer: 'Philip Glass' },
+			{ title: 'Dancer in the Dark', composer: 'Björk' },
+			{ title: 'See the Light (Tangled)', composer: 'Alan Menken' },
+			{ title: 'Maniac from Flash Dance', composer: 'Michael Sembello' },
+			{ title: 'My Songs Know What You Did in the Dark', composer: 'Fall Out Boy' },
+			{ title: 'Power', composer: 'Kanye West' }
 		]
 	},
 	{
@@ -193,13 +205,14 @@ const bands = [
 		location: 'Aldie, VA',
 		groupNumber: 'Group 6',
 		logoUrl: '/images/schools/xyz.webp',
-		productionName: 'XYZ',
-		drumMajors: ['xyz', 'XYZ', 'XYZ'],
-		directors: ['Jonathan Philip, Jamieson Carr, Jacob Zerega'],
+		productionName: 'POP!',
+		drumMajors: ['Ragnea Ganjoo, TC Haries, Serwaa Boateng, Ulemj Boldbaatar'],
+		directors: ['Jonathan Philip, Jamieson Carr, Alison Hoganson'],
 		songs: [
-			{ title: 'XYZ', composer: 'XYZ' },
-			{ title: 'XYZ', composer: 'XYZ' },
-			{ title: 'XYZ', composer: 'XYZ' }
+			{ title: 'Pop Goes the Weasel', composer: 'Traditional' },
+			{ title: 'Kingfishers Catch Fire', composer: 'John Mackey' },
+			{ title: 'Pop!', composer: 'NSYNC*' },
+			{ title: 'Sing', composer: 'Pentatonix' }
 		]
 	},
 	{
@@ -209,14 +222,11 @@ const bands = [
 		location: 'Aldie, VA',
 		groupNumber: 'Group 6',
 		logoUrl: '/images/schools/johnchampe.webp',
-		productionName: 'Knight Shades',
-		drumMajors: ['Rithik Iyer', 'Jiya Patel', 'Alejandro Zayas-Rodriguez'],
+		productionName: 'The Flip Side',
+		drumMajors: ['Jamie Byun, Sriya Godavarthi, Ranson Thayambath'],
 		directors: ['Adam Foreman', 'Jason Miller'],
 		songs: [
-			{ title: 'Blinding Lights', composer: 'The Weeknd' },
-			{ title: 'Blue Shades', composer: 'Frank Ticheli' },
-			{ title: 'Sunglasses at Night', composer: 'Corey Hart' },
-			{ title: 'The Light Fantastic', composer: 'Paul Lovatt-Cooper' }
+			{ title: 'TBD', composer: 'TBD' }
 		]
 	},
 	{
@@ -226,13 +236,15 @@ const bands = [
 		location: 'Ashburn, VA',
 		groupNumber: 'Group 6',
 		logoUrl: '/images/schools/independence.webp',
-		productionName: 'XYZ',
-		drumMajors: ['xyz', 'XYZ', 'XYZ'],
-		directors: ['Kyle Harrington & Amanda Young'],
+		productionName: 'Spark',
+		drumMajors: ['Evie Thrift, Juleana Molina'],
+		directors: ['Kyle Harrington, Amanda Young'],
 		songs: [
-			{ title: 'XYZ', composer: 'XYZ' },
-			{ title: 'XYZ', composer: 'XYZ' },
-			{ title: 'XYZ', composer: 'XYZ' }
+			{ title: 'Breath of Souls', composer: 'Paul Lovatt-Cooper' },
+			{ title: 'La Chancla', composer: 'Dennis Llinas' },
+			{ title: 'Adagio from Spartacus', composer: 'Aram Khachaturian' },
+			{ title: 'Familiarity', composer: 'Punch Brothers' },
+			{ title: 'Original Music', composer: 'Kyle Harrington and Nick Merrilat' }
 		]
 	},
 	{
@@ -243,12 +255,13 @@ const bands = [
 		groupNumber: 'Exhibition',
 		logoUrl: '/images/schools/freedom.webp',
 		productionName: 'If Left Were Right and Down Was Up',
-		drumMajors: ['Abby Keenan', 'Josh Choi', 'Bea Elliot'],
+		drumMajors: ['Bea Elliot, Mercedes Chin'],
 		directors: ['Jonathan Schiffler'],
 		songs: [
-			{ title: 'Right Now', composer: 'Van Halen' },
-			{ title: 'Simple Gifts', composer: 'Traditional' },
-			{ title: 'Deciduous', composer: 'Viet Cuong' }
+			{ title: 'Guitar Sound', composer: 'Ronald Jenkees' },
+			{ title: 'Disorganized Fun', composer: 'Ronald Jenkees' },
+			{ title: 'Energy Never Dies, It Just Transforms', composer: 'The Midnight' },
+			{ title: 'Crazy', composer: 'Seal' }
 		]
 	}
 ];

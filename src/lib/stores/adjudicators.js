@@ -1,31 +1,31 @@
 const adjudicators = [
 	{
 		category: 'Ensemble Music',
-		name: 'Carl Bly'
+		name: 'Chris Martin'
 	},
 	{
 		category: 'Individual Music',
-		name: 'Jon Merritt'
+		name: 'Jerry Philp'
 	},
 	{
 		category: 'Ensemble Visual',
-		name: 'Christopher Rutt'
+		name: 'Andrew Barberi'
 	},
 	{
 		category: 'Individual Visual',
-		name: 'Paula Hales'
+		name: 'Jason Derting'
 	},
 	{
 		category: 'GE Music',
-		name: 'Tim Bray'
+		name: 'David Shives'
 	},
 	{
 		category: 'GE Visual',
-		name: 'Randall Brownlee'
+		name: 'Doug Casteen'
 	},
 	{
 		category: 'Color Guard',
-		name: 'Katie Greene'
+		name: 'David Eger'
 	},
 	{
 		category: 'Percussion',
