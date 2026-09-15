@@ -55,6 +55,11 @@ const sponsors = [
 				logo: '/images/sponsors/ourisman.webp',
 				url: 'https://www.ourismanchantillytoyota.com/'
 			},
+			{
+				name: 'Pivot Woodworks',
+				logo: '',
+				url: 'https://pivotwoodworks.com/'
+			}
 		]
 	},
 	{
@@ -114,11 +119,6 @@ const sponsors = [
 				name: 'Philben Photography',
 				logo: '/images/sponsors/philben-photography.webp',
 				url: 'https://www.flickr.com/photos/sphilben/albums/'
-			},
-			{
-				name: 'Pivot Woodworks',
-				logo: '',
-				url: 'https://pivotwoodworks.com/'
 			},
 			{
 				name: 'Ronald Jenkees',

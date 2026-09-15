@@ -15,7 +15,7 @@ const boosters = {
 		{ name: 'Janelle Irrgang', position: 'President' },
 		{ name: 'Laura McGarry', position: 'VP Operations' },
 		{ name: 'JongSun Lee', position: 'VP Logistics' },
-		{ name: 'Catalina Gomoloka and Rachael Bingham', position: 'VP Colorguard' },
+		{ name: 'Catalina Gomoloka', position: 'VP Colorguard' },
 		{ name: 'Matt McGarry and Rachael Bingham', position: 'VP Drumline' },
 		{ name: 'James Gould', position: 'Treasurer' },
 		{ name: 'Becky Wilhelm', position: 'Secretary' }
