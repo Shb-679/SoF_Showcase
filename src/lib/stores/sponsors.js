@@ -9,11 +9,7 @@ const sponsors = [
 				logo: '/images/sponsors/dentistree.webp',
 				url: 'https://dentistreeva.com/'
 			},
-			{
-				name: 'Target',
-				logo: '/images/sponsors/target.webp',
-				url: 'http://target.com/sl/south-riding/2938'
-			}
+
 		]
 	},
 	{
@@ -84,6 +80,11 @@ const sponsors = [
 				name: 'Caring Hands Animal Hospital Centerville',
 				logo: '/images/sponsors/caringhands.webp',
 				url: 'https://caringhandsvet.com/centreville-va/'
+			},
+			{
+				name: 'Target',
+				logo: '/images/sponsors/target.webp',
+				url: 'http://target.com/sl/south-riding/2938'
 			}
 		]
 	},
@@ -127,8 +128,8 @@ const sponsors = [
 			},
 			{
 				name: 'The Midnight',
-				logo: '',
-				url: ''
+				logo: '/images/sponsors/TheMidnight.webp',
+				url: 'https://themidnightofficial.com/'
 			}
 		]
 	},
