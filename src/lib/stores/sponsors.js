@@ -5,21 +5,20 @@ const sponsors = [
 		level: 'Platinum Plus',
 		sponsors: [
 			{
+				name: 'Integrated Quality/Cyber AB',
+				logo: '',
+				url: 'https://iq-corp.com/'
+			},
+			{
 				name: 'DentisTree of Manassass',
 				logo: '/images/sponsors/dentistree.webp',
 				url: 'https://dentistreeva.com/'
-			},
-
+			}
 		]
 	},
 	{
 		level: 'Platinum',
 		sponsors: [
-			{
-				name: 'Integrated Quality/Cyber AB',
-				logo: '',
-				url: ''
-			},
 			{
 				name: 'Kreative Corp',
 				logo: '/images/sponsors/kreative.webp',
