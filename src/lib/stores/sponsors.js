@@ -5,8 +5,8 @@ const sponsors = [
 		level: 'Platinum Plus',
 		sponsors: [
 			{
-				name: 'Integrated Quality/Cyber AB',
-				logo: '',
+				name: 'Integrated Quality',
+				logo: '/images/sponsors/Integratedlogo.webp',
 				url: 'https://iq-corp.com/'
 			},
 			{
