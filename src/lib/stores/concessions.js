@@ -95,6 +95,12 @@ const concessions = {
 					price: '2.00',
 					description: 'Popular taffy candy',
 					icon: '🍬'
+				},
+				{
+					name: 'Snowcones',
+					price: '3.00',
+					description: 'Snowcone sales help raise money for Freedoms 2026 Indoor Drumline team! Show your support!',
+					icon: '🍧'
 				}
 			]
 		}
