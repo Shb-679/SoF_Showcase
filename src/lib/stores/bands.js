@@ -69,7 +69,7 @@ const bands = [
 		{
 		id: 'parkview',
 		school: 'Park View High School',
-		name: 'Patriots',
+		name: 'Marching Patriots',
 		location: 'Sterling, VA',
 		groupNumber: 'Group 3',
 		logoUrl: '/images/schools/ParkView.webp',
@@ -87,7 +87,7 @@ const bands = [
 	{
 		id: 'woodgrove',
 		school: 'Woodgrove High School',
-		name: 'Wolverines',
+		name: 'Marching Wolverines',
 		location: 'Purcellville, VA',
 		groupNumber: 'Group 3',
 		logoUrl: '/images/schools/Woodgrovehs.webp',
@@ -103,7 +103,7 @@ const bands = [
 	{
 		id: 'manassaspark',
 		school: 'Manassas Park High School',
-		name: 'Cougars',
+		name: 'Marching Cougars',
 		location: 'Manassas Park, VA',
 		groupNumber: 'Group 3',
 		logoUrl: '/images/schools/ManassassParkhs.webp',
@@ -117,21 +117,22 @@ const bands = [
 	{
 		id: 'justice',
 		school: 'Justice High School',
-		name: 'Wolves',
+		name: 'Justice Marching Band',
 		location: 'Falls Church, VA',
 		groupNumber: 'Group 4',
 		logoUrl: '/images/schools/justicehs.webp',
-		productionName: 'Dia de los Muertos',
-		drumMajors: ['No DM, Leads: TJ Basin, Brooke Ehman-Jone, Jaime Matildes, Nathan Jackson Silvia Smith, Elinor Sonet'],
-		directors: ['Brian Thomas'],
+		productionName: 'Wanted',
+		drumMajors: ['No Drum Majors, Leads: Jaime Matildes, Elinor Sonnet'],
+		directors: ['Brian Thomas, Andrew Sharrock'],
 		songs: [
-			{ title: 'Dia de los Muertos', composer: 'Randall Standridge' }
+			{ title: 'Music from the Godfather', composer: 'Nino Rota' },
+			{ title: 'Music from Wanted Dead or Alive', composer: 'Joe Renzetti' }
 		]
 	},
 	{
 		id: 'herndon',
 		school: 'Herndon High School',
-		name: 'Fighting Hornets',
+		name: 'Pride of Herndon',
 		location: 'Herndon, VA',
 		groupNumber: 'Group 4',
 		logoUrl: '/images/schools/Herndonhornet.webp',
@@ -164,7 +165,7 @@ const bands = [
 	{
 		id: 'fairfax',
 		school: 'Fairfax High School',
-		name: 'Lions',
+		name: 'Marching Lions',
 		location: 'Fairfax, VA',
 		groupNumber: 'Group 4',
 		logoUrl: '/images/schools/fairfaxhs.webp',
@@ -181,7 +182,7 @@ const bands = [
 	{
 		id: 'rockridge',
 		school: 'Rock Ridge High School',
-		name: 'Phoenix',
+		name: 'Outdoor Performance Ensemble',
 		location: 'Ashburn, VA',
 		groupNumber: 'Group 5',
 		logoUrl: '/images/schools/rockridge.webp',
@@ -226,13 +227,18 @@ const bands = [
 		drumMajors: ['Jamie Byun, Sriya Godavarthi, Ranson Thayambath'],
 		directors: ['Adam Foreman', 'Jason Miller'],
 		songs: [
-			{ title: 'TBD', composer: 'TBD' }
+			{ title: 'Cello Suite No. 1 in G Major', composer: 'Johann Sebastian Bach' },
+			{ title: 'Welcome to the Black Parade', composer: 'My Chemical Romance' },
+			{ title: 'Both Sides Now', composer: 'Joni Mitchell' },
+			{ title: 'Canon in D', composer: 'Pachelbel' },
+			{ title: 'Pompeii', composer: 'Bastille' },
+			{ title: 'Thunderstruck', composer: 'AC/DC' }
 		]
 	},
 	{
 		id: 'independence',
 		school: 'Independence High School',
-		name: 'Tigers',
+		name: 'Independence Marching Band',
 		location: 'Ashburn, VA',
 		groupNumber: 'Group 6',
 		logoUrl: '/images/schools/independence.webp',
